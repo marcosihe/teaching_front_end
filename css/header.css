@@ -1,0 +1,62 @@
+.indexHeader {
+  background: url(../img/019.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.logoCuiDAR {
+    font-weight: bold;
+    background-color: brown;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.logoAR {
+    color: cornflowerblue;
+    font-weight: bolder;
+}
+
+.indexNavbar {
+  background-color: transparent !important;
+}
+
+.indexNavbar:hover{
+    background-color: whitesmoke !important;
+    padding-bottom: 0.5rem;
+}
+
+.navbarA {
+  color: #000 !important;
+  font-size: 1.35rem;
+  border-radius: 5px;
+}
+
+.navbarA:hover {
+  background-color: brown;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in;
+  transform: scale(1.1);
+  color: whitesmoke !important;
+}
+
+.indexH1 {
+  color: brown;
+  text-align: center;
+  width: 60vw;
+
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .indexHeader {
+    background: url(../img/019b.jpg) no-repeat content-box;
+    background-size: 100%;
+  }
+  .navbarA {
+    color: brown !important;
+    font-weight: bold;
+  }
+}
